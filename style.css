@@ -1,0 +1,40 @@
+/* start of global styles */
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html,
+body {
+  font-family: "Pliant", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Right Grotesk Small";
+  src: url(font/RightGroteskText-WideBold.woff) format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Right Grotesk Small";
+  src: url(font/RightGroteskText-CompactMedium.woff) format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Right Grotesk Small";
+  src: url(font/RightGroteskText-Regular.woff) format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+/* end of global styles */
+
+h1 {
+  font-family: "Right Grotesk Small";
+  font-weight: 700;
+  font-size: 3.5rem;
+}
